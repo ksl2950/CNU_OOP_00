@@ -26,11 +26,11 @@ int main() {
 	out << a << std::endl;
 	out.close();
 
-	//Á¦´ë·Î µé¾î°¬´ÂÁö È®ÀÎÇØº¸±â À§ÇÑ ÆÄÀÏ ÀĞ±â 
-	std::ifstream in("testOveroding.txt");
+	//ì œëŒ€ë¡œ ë“¤ì–´ê°”ëŠ”ì§€ í™•ì¸í•´ë³´ê¸° ìœ„í•œ íŒŒì¼ ì½ê¸° 
+	/*std::ifstream in("testOveroding.txt");
 	while (!in.eof()) {
 		in.getline(inputString, 100);
 		std:: cout << inputString << std ::endl;
-	}
+	}*/
 	return 0;
 }
